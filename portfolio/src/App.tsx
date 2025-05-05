@@ -36,7 +36,7 @@ const App = () => {
 
       <div id="hero" className="lg:mx-24 sm:mx-12 flex lg:justify-between sm:justify-center place-items-center overflow-x-hidden">
         <div className="sm:mt-24">
-          <div className="flex flex-col text-white font-black lg:text-9xl md:text-7xl sm:text-6xl -space-y-4 text-pop-up-top
+          <div className="flex flex-col text-white font-black lg:text-9xl sm:text-8xl -space-y-4 text-pop-up-top
                           lg:place-items-start sm:place-items-center">
             <p>EARL</p> 
             <p>DICIPULO</p>
@@ -188,6 +188,15 @@ const App = () => {
               ></img>
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-80 transition-opacity duration-300 p-4">
                 <p className="text-white text-xl font-bold text-center">LIKHA Design + Build Landing Website</p>
+              </div>
+            </div>
+            <div className="overflow-hidden rounded-2xl relative group">
+              <img loading='lazy' src="staticwebpage.png" 
+              className='h-full w-[32rem] rounded-2xl transition-all duration-300 hover:scale-110'
+              ></img>
+              <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-70 transition-opacity duration-300">
+              <p className="text-white text-xl font-bold text-center">Static Web Page</p>
+              <a href="https://staticwebpage-seven.vercel.app" target="_blank" rel="noopener noreferrer" className="text-white border-2 rounded-2xl px-4 py-2 hover:bg-white hover:text-black transition mt-5">View Project</a>
               </div>
             </div>
           <img loading='lazy' src="comingsoon.png" className='h-full w-[32rem] rounded-2xl'></img>
