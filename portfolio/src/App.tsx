@@ -25,18 +25,18 @@ const App = () => {
           <div className="mx-8 flex justify-between items-center">
             <a href="#hero" className="text-white text-2xl font-black">Earl Dicipulo</a>
             <ul className="flex space-x-6 font-bold z-10">
-              <a href="#about" className="text-white hover:text-lime-400 hover:drop-shadow-[0px_0px_12px_rgba(154,230,0,1)] transition-colors">About</a>
-              <a href="#skills" className="text-white hover:text-lime-400 hover:drop-shadow-[0px_0px_12px_rgba(154,230,0,1)] transition-colors">Skills</a>
-              <a href="#experience" className="text-white hover:text-lime-400 hover:drop-shadow-[0px_0px_12px_rgba(154,230,0,1)] transition-colors">Experience</a>
-              <a href="#projects" className="text-white hover:text-lime-400 hover:drop-shadow-[0px_0px_12px_rgba(154,230,0,1)] transition-colors">Projects</a>
+              <li><a href="#about" className="text-white hover:text-lime-400 hover:drop-shadow-[0px_0px_12px_rgba(154,230,0,1)] transition-colors">About</a></li>
+              <li><a href="#skills" className="text-white hover:text-lime-400 hover:drop-shadow-[0px_0px_12px_rgba(154,230,0,1)] transition-colors">Skills</a></li>
+              <li><a href="#experience" className="text-white hover:text-lime-400 hover:drop-shadow-[0px_0px_12px_rgba(154,230,0,1)] transition-colors">Experience</a></li>
+              <li><a href="#projects" className="text-white hover:text-lime-400 hover:drop-shadow-[0px_0px_12px_rgba(154,230,0,1)] transition-colors">Projects</a></li>
             </ul>
           </div>
         </nav>
       </div>
 
-      <div id="hero" className="lg:mx-24 sm:mx-12 flex justify-between place-items-center overflow-x-hidden">
+      <div id="hero" className="lg:mx-24 sm:mx-12 flex lg:justify-between sm:justify-center place-items-center overflow-x-hidden">
         <div className="sm:mt-24">
-          <div className="flex flex-col text-white font-black text-9xl -space-y-4 text-pop-up-top
+          <div className="flex flex-col text-white font-black lg:text-9xl md:text-7xl sm:text-6xl -space-y-4 text-pop-up-top
                           lg:place-items-start sm:place-items-center">
             <p>EARL</p> 
             <p>DICIPULO</p>
@@ -55,7 +55,7 @@ const App = () => {
         </div>
         <div>
             <div className="w-[937px] h-[937px] shrink-0 absolute circleBlur right-0 top-0 translate-x-40 -translate-y-20 animate-pulse"></div>            
-            <img src="/owl.svg" className='lg:h-[36rem] lg:w-[28rem] sm:w-0 lg:w-0'></img>
+            <img src="/owl.svg" className='lg:h-[36rem] lg:w-[28rem] sm:w-0'></img>
         </div>
       </div>
 
@@ -75,22 +75,19 @@ const App = () => {
           </Marquee>
       </div>
 
-      <div id="about" className="lg:mt-8 sm:mt-0 w-full h-full justify-between bg-gradient-to-t from-slate-900 to-slate-950 flex ">
-        <div className="lg:mx-20 sm:mx-36 lg:pb-0 sm:pb-12 mt-20 sm:place-items-center lg:place-items-start">
+      <div id="about" className="lg:mt-8 sm:mt-0 w-full h-full bg-gradient-to-t from-slate-900 to-slate-950 flex place-items-center justify-center">
+        <div className="lg:mx-20 sm:mx-36 lg:pb-24 sm:pb-12 mt-20 place-items-center">
           <h1 className="lg:text-7xl sm:text-5xl text-lime-400 font-black font-sans">ABOUT ME</h1>
           <div className="lg:w-[38rem] sm:w-[28rem]">
-            <p className="lg:text-2xl sm:text-lg text-white mt-12 font-bold">
+            <p className="lg:text-2xl sm:text-lg text-white mt-12 font-bold text-center">
               I am <span className='text-lime-400 drop-shadow-[0px_0px_12px_rgba(154,230,0,1)]'>Earl Geibriel Dicipulo</span>, a UI/UX designer and a frontend developer with a passion for creating visually-appealing and functional user interfaces.
             </p>
-            <p className="lg:text-2xl sm:text-lg text-white mt-4 font-bold">
+            <p className="lg:text-2xl sm:t  ext-lg text-white mt-4 font-bold text-center">
               I have a background in design principles and a keen eye for detail, which allows me to create visually appealing and user-friendly designs.
               Through the use of modern technologies, tools, and frameworks, I was able to create user-centered and functional interfaces for school organizations.
               I am also always to eager learn and improve my skills, and I am always looking for new challenges to tackle.
             </p>
           </div>
-        </div>
-        <div>
-            <img src="./mypic.png" className="lg:h-full lg:w-[42rem] sm:h-0 sm:w-0 translate-x-4.5  "></img>
         </div>
       </div>
 
